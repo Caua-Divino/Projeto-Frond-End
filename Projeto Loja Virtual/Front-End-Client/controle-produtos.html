@@ -1,0 +1,131 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Produtos</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/controle-produtos.css">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 text-center pt-5 pb-5">
+                <h1 class="titulo">Controle de Produtos</h1>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container-fluid pb-3">
+        <div class="row">
+            <div class="col-sm-12 pt-3">
+                <button id="btn-adicionar" 
+                    data-bs-target="#modal-produtos">➕Adicionar</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <table class="table table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Foto</th>
+                        <th>Nome</th>
+                        <th>Valor</th>
+                        <th>Qtd em Estoque</th>
+                        <th>Especificação</th>
+                        <th>Data de Cadastro</th>
+                        <th>Modificadores</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!--Modal-->
+    <div class="modal" id="modal-produtos">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Adicionar Produtos</h4>
+                    <button type="button" class="btn-close"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <label for="id" class="form-label">ID</label>
+                            <input id="id" type="text" disabled class="form-control">
+                        </div>
+
+                        <div class="col-sm-10">
+                            <label for="nome" class="form-label">Nome</label>
+                            <input id="nome" type="text" class="form-control">
+                        </div>
+
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <label for="foto" class="form-label">Foto</label>
+                                <input id="foto" type="text" disabled class="form-control">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <label for="valor" class="form-label">Valor</label>
+                            <input id="valor" type="text" class="form-control">
+                        </div>
+
+                        <div class="col-sm-4">
+                            <label for="qtdEstoque" class="form-label">Qtd em Estoque</label>
+                            <input id="qtdEstoque" type="text" class="form-control">
+                        </div>
+
+                        <div class="col-sm-4">
+                            <label for="especificacao" class="form-label" >Especificação</label>
+                            <input id="especificacao" type="text" class="form-control">
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-5 pb-4">
+                                <label for="dataCadastro" class="form-label">Data de Cadastro</label>
+                                <input id="dataCadastro" type="date" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button id="btn-salvar" type="button" class="btn btn-primary btn-sm">Salvar</button>
+
+                <button id="btn-cancelar" type="button" class="btn btn-light btn-sm">Cancelar</button>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/model/Gerenciadores.js"></script>
+    <script src="./js/model/Modal.js"></script>
+    <script src="./js/model/Produtos.js"></script>
+    <script src="./js/controle-produtos.js"></script>
+</body>
+
+</html>

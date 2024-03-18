@@ -1,0 +1,88 @@
+
+
+body{
+    background-color: var(--Cor-Secondaria-N);
+}
+
+.caixa-conectar-se{
+    width: 280px;
+    height: auto;
+    margin: auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin-top: 70px;
+    padding: 20px;
+    background-color: var(--Cor-Primaria-N);
+}
+
+.titulo-conectar-se{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.titulo-conectar-se h1{
+    font-weight: 700;
+    font-size: 75px;
+}
+
+.grupo{
+    margin-top: 10px;
+    color: white;
+}
+
+.grupo label{
+    font-weight: 700;
+    font-size: medium;
+}
+
+.esqueci-minha-senha a{
+    text-decoration: none;
+    color: white;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.esqueci-minha-senha {
+    text-align: right;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Tags e Id's */
+
+label{
+    font-size: 14px;
+}
+
+input,
+#btn-entrar {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+#btn-entrar {
+    margin-top: 20px;
+    background-color: var(--Cor-Primaria);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    padding: 25px 0px;
+}
+
+#btn-entrar:hover{
+    background-color: var(--Cor-Secondaria);
+    cursor: pointer;
+}
+
+.esqueci-minha-senha a{
+    color: white;
+}
+.esqueci-minha-senha a:hover{
+    color: rgb(150, 150, 150);
+}

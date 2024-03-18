@@ -1,0 +1,12 @@
+
+:root{
+    --Cor-Primaria: rgb(0, 150, 255);
+    --Cor-Secondaria: rgb(0, 100, 175);
+    --Cor-Primaria-N: rgb(0, 70, 110);
+    --Cor-Secondaria-N: rgb(0, 30, 40);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}

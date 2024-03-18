@@ -1,0 +1,46 @@
+/*
+
+
+
+
+*/
+
+body{
+    background-color: var(--Cor-Secondaria);
+}
+
+.table{
+    margin-top: 35px;
+}
+
+.table.table-bordered.table-hover th{
+    background-color: var(--Cor-Primaria); 
+    border: solid 4px gray;
+    color: white;
+}
+
+.container-fluid{
+    background-color: var(--Cor-Primaria);
+    border-bottom: solid 5px gray;
+}
+
+.titulo{
+    color: white;
+    font-size: 75px;
+}
+
+#btn-adicionar{
+    background-color: var(--Cor-Primaria-N);
+    color: white;
+
+    font-size: 20px;
+
+    border: solid 0px;
+    border-radius: 5px;
+    padding: 25px 50px;
+    margin-left: 42%;
+}
+
+#btn-adicionar:hover{
+    background-color: var(--Cor-Secondaria-N);
+}

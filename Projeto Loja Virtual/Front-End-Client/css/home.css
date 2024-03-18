@@ -1,0 +1,37 @@
+
+body{
+    background-color: var(--Cor-Secondaria);
+}
+
+.container-fluid{
+    background-color: var(--Cor-Primaria);
+    border-bottom: solid 5px gray;
+}
+
+.container-fluid p{
+    color: white;
+}
+
+#btn-topo-pesquisar, #carrinho-de-compra, #btn-login,
+#btn-controle-produtos, #btn-produtos, #btn-controle-clientes{
+    color: white;
+    background-color: var(--Cor-Primaria-N);
+}
+
+#btn-topo-pesquisar:hover, #carrinho-de-compra:hover, #btn-login:hover,
+#btn-controle-produtos:hover, #btn-produtos:hover, #btn-controle-clientes:hover{
+    background-color: var(--Cor-Secondaria-N);
+}
+
+#lupa-icone-topo{
+    width: 32px;
+    height: 32px;
+}
+
+#carrinho-de-compra{
+    width: 80px;
+}
+
+#btn-controle-produtos, #btn-controle-clientes{
+    display: none;
+}
